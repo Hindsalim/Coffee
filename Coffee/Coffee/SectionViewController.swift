@@ -24,15 +24,15 @@ class SectionViewController: UIViewController , UICollectionViewDelegate,UIColle
         // Do any additional setup after loading the view.
         
         
-      var sweetSection = Section (name: "sweet", products: [], imageName: "sweet")
-      var drinkSection = Section (name: "hot drinks", products: [], imageName: "hot drinks")
-        
-       
+   var sweetSection = Section (name: "sweet", products: [], imageName: "sweet")
+     var drinkSection = Section (name: "hot drinks", products: [], imageName: "hot drinks")
+var drinkSection = Section (name: "cold drinks",products: [], imageName: "cold drinks")
+        var icecreamSection = Section (name:"ice cream",products: [], imageName:"ice cream" )
         
         sections.append(sweetSection)
         sections.append(drinkSection)
-        
-        
+        sections.append(drinkSection )
+        sections.append(icecreamSection)
     }
     
     

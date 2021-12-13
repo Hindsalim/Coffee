@@ -20,11 +20,11 @@ class Customer {
 
     var name: String
     var age: Int
-    let services : [Service]
+let services : [Service]
     var phoneNumber : Int
     var password: String
     var description : String
-  init(name:String, age:Int ,services:[Service],phoneNumber:Int,password:String,description: String) {
+ init(name:String, age:Int ,services:[Service],phoneNumber:Int,password:String,description: String) {
       self.name = name
      self.age = age
  self.services = services

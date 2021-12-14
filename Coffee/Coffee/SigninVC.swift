@@ -27,7 +27,7 @@ class SigninVC: UIViewController {
                 print(error.localizedDescription)
             }
             if authResult?.user.email != nil {
-                
+                self?.performSegue(withIdentifier: "singinHome" , sender: nil)
             }
             print("email:\(String(describing: authResult?.user.email))")
             print("uid:\(String(describing: authResult?.user.uid))")

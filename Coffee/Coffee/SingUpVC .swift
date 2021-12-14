@@ -31,13 +31,22 @@ class SingUpVC :UIViewController {
             print("email:\(String(describing: authResult?.user.email))")
             print("uid:\(String(describing: authResult?.user.uid))")
             
-            UserApi.addUser(name: self.name.text ?? "", uid: authResult?.user.uid ?? "", phone: "966500707832", email: email) { check in
-                if check {
-                    print("Done saving in Database")
-                } else {
-                    
-                }
+            if let error = error {
+                
+                print("no user created")
             }
+            
+            if let user = authResult?.user {
+                self.performSegue(withIdentifier: "showHome", sender: nil)
+            }
+            
+//            UserApi.addUser(name: self.name.text ?? "", uid: authResult?.user.uid ?? "", phone: "966500707832", email: email) { check in
+//                if check {
+//                    print("Done saving in Database")
+//                } else {
+//                    
+//                }
+//            }
         }
     }
 }

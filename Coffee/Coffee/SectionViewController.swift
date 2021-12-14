@@ -24,19 +24,25 @@ class SectionViewController: UIViewController , UICollectionViewDelegate,UIColle
         // Do any additional setup after loading the view.
         
         
-        let sweetSection = Section (name: "sweet", products: [], imageName: "sweet")
-        let drinkSection = Section (name: "hot drinks", products: [], imageName: "hot drinks")
-  let drinkSection1 = Section (name: "cold drinks",products: [], imageName: "cold drinks")
-        let icecreamSection = Section (name:"ice cream",products: [], imageName:"ice cream" )
+        let sweetSection = Section (name: "sweet", products: [], imageName: "Image1")
+        let drinkSection = Section (name: "hot drinks", products: [], imageName: "image2")
+        
+        let drinkSection1 = Section (name: "cold drinks",products: [], imageName: "image3")
+        let icecreamSection = Section (name:"ice cream",products: [], imageName:"image4" )
         
         sections.append(sweetSection)
         sections.append(drinkSection)
         sections.append(drinkSection1 )
         sections.append(icecreamSection)
+        
+        sectionCollectionView.reloadData()
+        
+        print(sections)
     }
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        print("\(sections.count)")
         return sections.count
     }
     
@@ -51,7 +57,7 @@ class SectionViewController: UIViewController , UICollectionViewDelegate,UIColle
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
-        return CGSize(width: view.bounds.width, height: view.bounds.width/3)
+        return CGSize(width: view.bounds.width  , height: view.bounds.height/4)
     }
     
     

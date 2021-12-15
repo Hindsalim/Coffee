@@ -32,6 +32,7 @@
 		3A9B37C72760C9A200DFAE4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9B37C52760C9A200DFAE4B /* Main.storyboard */; };
 		3A9B37C92760C9A300DFAE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9B37C82760C9A300DFAE4B /* Assets.xcassets */; };
 		3A9B37CC2760C9A300DFAE4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9B37CA2760C9A300DFAE4B /* LaunchScreen.storyboard */; };
+		3AFB9244276A132D00A00085 /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB9243276A132D00A00085 /* ProductTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		3A9B37C82760C9A300DFAE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A9B37CB2760C9A300DFAE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A9B37CD2760C9A300DFAE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFB9243276A132D00A00085 /* ProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				3A98A8262765D87F0027D1E6 /* User.swift */,
 				3A98A8282765F3460027D1E6 /* UserApi.swift */,
 				3A7E97AF27671F1700878940 /* Extensions.swift */,
+				3AFB9243276A132D00A00085 /* ProductTableViewController.swift */,
 			);
 			path = Coffee;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				3A9B37C42760C9A200DFAE4B /* ViewController.swift in Sources */,
 				3A8B167827632346009AE92C /* LocationViewController.swift in Sources */,
 				3A9B37C02760C9A200DFAE4B /* AppDelegate.swift in Sources */,
+				3AFB9244276A132D00A00085 /* ProductTableViewController.swift in Sources */,
 				3A9B37C22760C9A200DFAE4B /* SceneDelegate.swift in Sources */,
 				3A98A8272765D87F0027D1E6 /* User.swift in Sources */,
 				3A7DEF6D276565B5005556F5 /* Customer.swift in Sources */,

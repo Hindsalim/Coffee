@@ -16,8 +16,17 @@ class SigninVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
     }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        if Auth.auth().currentUser != nil {
+            performSegue(withIdentifier: "singinHome" , sender: nil)
+        }
+    }
+    
+    
     @IBAction func signin(_ sender: UIButton) {
         
         Auth.auth().signIn(withEmail: email.text ?? "", password: password.text ?? "") { [weak self] authResult, error in

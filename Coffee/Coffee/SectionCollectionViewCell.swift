@@ -12,3 +12,6 @@ class SectionCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var sectionimageView: UIImageView!
     @IBOutlet weak var sectionTitalLable: UILabel!
 }
+
+
+

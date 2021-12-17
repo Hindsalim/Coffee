@@ -10,35 +10,60 @@ import SwiftUI
 
 class ProductTableViewController: UITableViewController {
     
+    var sections : [Section] = []
+    var solctedld : String = ""
+    var setSelctedId : String = ""
     
-  var  selectselect
-       
-   
-     
-        
-        
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+      tableView.delegate = self
+      tableView.dataSource = self
+      
+    
+ arrSection.append(Section.init(name:"Sweet", products: "", imageName:"")!))
+      
+  }
+    func tableView(_tableView:UITableView,numberofRowsInSection sections: Int)-> Int {
+    return 0
+    }
+    func tableView(_tableView:UITableView,cellForRowAt indextpath: IndexPath)-> UITableViewCell {
+        let  cell = tableView.dequeueReusableCell(withIdentifier:"") as! ""
+        return cell
+    }
+}
+struct sections {
+    let name : String
+    let price : Double
+    let description : String
+    let photo : UIImage
+}
 
+      
+      
+      
+      
+        
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
-    }
+        // tself.navigationItem.rightBarButtonItem = self.editButtonItem
+    //}
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
+  //  override func numberOfSections(in tableView: UITableView) -> Int {
+    // #warning Incomplete implementation, return the number of sections
+       // return 0
+  //  }
 
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
-    }
+   // override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+      // #warning Incomplete implementation, return the number of rows
+    //    return 0
+ //   }
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -95,4 +120,6 @@ class ProductTableViewController: UITableViewController {
     }
     */
 
+//
+    
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0pM-S2-eeg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wqr-WP-drX">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
@@ -192,20 +192,20 @@
             <objects>
                 <viewController id="Rpp-X3-PW3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Qg-gw-hoU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image." translatesAutoresizingMaskIntoConstraints="NO" id="ekl-ZK-dUp" customClass="viewController">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A beautiful identity and a beautiful place" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3r-GG-L7m">
-                                <rect key="frame" x="0.0" y="44" width="414" height="72"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="72"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JYO-2O-1NA">
-                                <rect key="frame" x="214" y="814" width="200" height="48"/>
+                                <rect key="frame" x="345" y="822" width="69" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -307,23 +307,23 @@
                     <navigationItem key="navigationItem" title="section" id="idQ-yR-1tw"/>
                     <connections>
                         <outlet property="sectionCollectionView" destination="OMT-T5-G6I" id="J1T-L0-CFE"/>
-                        <segue destination="fms-k9-4q3" kind="show" identifier="toDetals" id="zbm-lW-3bJ"/>
+                        <segue destination="fms-k9-4q3" kind="show" identifier="toProducts" id="zbm-lW-3bJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gyz-Pf-8Lm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4205.7971014492759" y="-1019.1964285714286"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Product Table View Controller-->
         <scene sceneID="C6N-x4-BgY">
             <objects>
-                <tableViewController id="fms-k9-4q3" sceneMemberID="viewController">
+                <tableViewController id="fms-k9-4q3" customClass="ProductTableViewController" customModule="Coffee" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="cje-Rd-VfJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="89A-Uf-ufu" rowHeight="102" style="IBUITableViewCellStyleDefault" id="W0e-pl-iRM">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="productCell" textLabel="89A-Uf-ufu" rowHeight="102" style="IBUITableViewCellStyleDefault" id="W0e-pl-iRM">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="102"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="W0e-pl-iRM" id="4Dj-i1-zTe">
@@ -680,7 +680,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Kkw-2T-aRB"/>
-        <segue reference="7ge-Hg-8YD"/>
+        <segue reference="k7f-rd-enM"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="739" height="1200"/>

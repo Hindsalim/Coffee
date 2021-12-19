@@ -10,35 +10,35 @@ import SwiftUI
 
 class ProductTableViewController: UITableViewController {
     
-    var sections : [Section] = []
-    var solctedld : String = ""
-    var setSelctedId : String = ""
-    
-    
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    
-      tableView.delegate = self
-      tableView.dataSource = self
-      
-    
- arrSection.append(Section.init(name:"Sweet", products: "", imageName:"")!))
-      
-  }
-    func tableView(_tableView:UITableView,numberofRowsInSection sections: Int)-> Int {
-    return 0
+    var selectedSection : Section!
+   
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
     }
-    func tableView(_tableView:UITableView,cellForRowAt indextpath: IndexPath)-> UITableViewCell {
-        let  cell = tableView.dequeueReusableCell(withIdentifier:"") as! ""
+    
+    
+    
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return selectedSection.products.count
+    }
+    
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "productCell", for: indexPath)
+        let product = selectedSection.products[indexPath.row]
+        
+        cell.textLabel?.text = product.name
+        cell.detailTextLabel?.text = "\(product.price) SAR"
+        cell.imageView?.image = UIImage(named: product.imageName)
         return cell
     }
+    
+  
 }
-struct sections {
-    let name : String
-    let price : Double
-    let description : String
-    let photo : UIImage
-}
+
+ 
 
       
       
@@ -122,4 +122,3 @@ struct sections {
 
 //
     
-}

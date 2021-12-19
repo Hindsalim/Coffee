@@ -11,6 +11,7 @@ class SectionViewController: UIViewController , UICollectionViewDelegate,UIColle
 
 
     var sections : [Section] = []
+    var selectedSection : Section!
     
     
     @IBOutlet weak var sectionCollectionView: UICollectionView!
@@ -85,13 +86,21 @@ class SectionViewController: UIViewController , UICollectionViewDelegate,UIColle
         
         return CGSize(width: view.bounds.width  , height: view.bounds.height/4)
     }
+    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-     
-        
-        performSegue(withIdentifier: "toDetals", sender: nil)
+        selectedSection = sections[indexPath.row]
+        performSegue(withIdentifier: "toProducts", sender: nil)
     }
     
     
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toProducts" {
+            
+            let dest = segue.destination as! ProductTableViewController
+            dest.selectedSection = selectedSection
+        }
+    }
 
     /*
     // MARK: - Navigation

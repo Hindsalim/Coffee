@@ -27,25 +27,25 @@ class SectionViewController: UIViewController , UICollectionViewDelegate,UIColle
         
         
         
-        let sweetProduct1 = Product(name: "sweet1", imageName: "Image-1", price: 21, describe: "Delicious crispy date cake")
-        let sweetProduct2 = Product(name: "sweet2", imageName: "Image-1", price: 20, describe: "Delicious crispy date cake")
-        let sweetProduct3 = Product(name: "sweet3", imageName: "Image-1", price: 23, describe: "Delicious crispy date cake")
-        let sweetProduct4 = Product(name: "sweet4", imageName: "Image-1", price: 25, describe: "Delicious crispy date cake")
+        let sweetProduct1 = Product(name: "date cake", imageName: "Image-1", price: 21, describe: "Delicious crispy date cake")
+        let sweetProduct2 = Product(name: "lemon cake", imageName: "Image-1a", price: 19, describe: "One of the most delicious cakes fragile firm wet")
+        let sweetProduct3 = Product(name: "lava cake", imageName: "Image-1b", price: 23, describe: "lava cake stuffed with nutella")
+        let sweetProduct4 = Product(name: "cheese cake", imageName: "Image-1c", price: 20, describe: "cold lotus cheesecake")
 
-        let drinkProduct1 = Product(name: "hot drinks", imageName: "Image-2", price: 20, describe: "Hot chocolat is a favorite to cool everyone in winter times")
-        let drinkProduct2 = Product(name: "hot drinks", imageName: "Image-2", price: 19, describe: "Hot chocolat is a favorite to cool everyone in winter times")
-        let drinkProduct3 = Product(name: "hot drinks", imageName: "Image-2", price: 24, describe: "Hot chocolat is a favorite to cool everyone in winter times")
-        let drinkProduct4 = Product(name: "hot drinks", imageName: "Image-2", price: 22, describe: "Hot chocolat is a favorite to cool everyone in winter times")
+        let drinkProduct1 = Product(name: "espresso", imageName: "Image-2", price: 10, describe: "Espresso coffee is one of the most important Italian drinks, as this coffee is distinguished by its dark color")
+        let drinkProduct2 = Product(name: "hot chocolate", imageName: "Image-2a", price: 20, describe: "Hot chocolat is a favorite to cool everyone in winter times")
+        let drinkProduct3 = Product(name: "cappuccino", imageName: "Image-2b", price: 16, describe: "Hot chocolat is a favorite to cool everyone in winter times")
+        let drinkProduct4 = Product(name: "hot spanish", imageName: "Image-2c", price: 20, describe: "Hot chocolat is a favorite to cool everyone in winter times")
         
-        let Hotchocolate1 = Product(name: "cold drinks1", imageName: "Image-3", price: 21, describe:"")
-        let IceBlack = Product(name: "cold drinks2", imageName: "Image-3", price: 20, describe:"")
-        let Mocha = Product(name: "cold drinks3", imageName: "Image-3", price: 18, describe:"")
-        let IceLatia  = Product(name: "cold drinks4", imageName: "Image-3", price: 22, describe:"")
+        let Hotchocolate1 = Product(name: "lce latte", imageName: "Image-3", price: 17, describe:"")
+        let IceBlack = Product(name: "spanish cold ", imageName: "Image-3a", price: 20, describe:"")
+        let Mocha = Product(name: "pistachio cold ", imageName: "Image-3b", price: 18, describe:"")
+        let IceLatia  = Product(name: "americano cold ", imageName: "Image-3c", price: 22, describe:"")
         
-        let icecreamProduct1 = Product(name: "ice cream1", imageName: "Image-4", price: 25, describe: "")
-        let icecreamProduct2 = Product(name: "ice cream2", imageName: "Image-4", price: 27, describe: "")
-        let icecreamProduct3 = Product(name: "ice cream3", imageName: "Image-4", price: 19, describe: "")
-        let icecreamProduct4 = Product(name: "ice cream4", imageName: "Image-4", price: 23, describe: "")
+        let icecreamProduct1 = Product(name: "mango ice cream", imageName: "Image-4", price: 18, describe: "")
+        let icecreamProduct2 = Product(name: "vanilla ice cream", imageName: "Image-4a", price:17, describe: "")
+        let icecreamProduct3 = Product(name: "pistachio ice cream", imageName: "Image-4b", price: 18, describe: "")
+        let icecreamProduct4 = Product(name: "mix mango ice cream", imageName: "Image-4c", price: 19, describe: "")
     
         
         

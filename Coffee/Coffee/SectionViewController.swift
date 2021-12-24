@@ -34,13 +34,13 @@ class SectionViewController: UIViewController , UICollectionViewDelegate,UIColle
 
         let drinkProduct1 = Product(name: "espresso", imageName: "Image-2", price: 10, describe: "Espresso coffee is one of the most important Italian drinks, as this coffee is distinguished by its dark color")
         let drinkProduct2 = Product(name: "hot chocolate", imageName: "Image-2a", price: 20, describe: "Hot chocolat is a favorite to cool everyone in winter times")
-        let drinkProduct3 = Product(name: "cappuccino", imageName: "Image-2b", price: 16, describe: "Hot chocolat is a favorite to cool everyone in winter times")
-        let drinkProduct4 = Product(name: "hot spanish", imageName: "Image-2c", price: 20, describe: "Hot chocolat is a favorite to cool everyone in winter times")
+        let drinkProduct3 = Product(name: "cappuccino", imageName: "Image-2b", price: 16, describe: "Kind of coffee")
+        let drinkProduct4 = Product(name: "hot spanish", imageName: "Image-2c", price: 20, describe: "Delicious and delicious")
         
-        let Hotchocolate1 = Product(name: "lce latte", imageName: "Image-3", price: 17, describe:"")
-        let IceBlack = Product(name: "spanish cold ", imageName: "Image-3a", price: 20, describe:"")
-        let Mocha = Product(name: "pistachio cold ", imageName: "Image-3b", price: 18, describe:"")
-        let IceLatia  = Product(name: "americano cold ", imageName: "Image-3c", price: 22, describe:"")
+        let Hotchocolate1 = Product(name: "cold lce latte ", imageName: "Image-3", price: 17, describe:"Cool delicious is a little ice")
+        let IceBlack = Product(name: "cold spanish  ", imageName: "Image-3a", price: 20, describe:"The cold Spanish latte is a delicious and wonderful drink, with simple ingredients of coffee and milk")
+        let Mocha = Product(name: "cold pistachio ", imageName: "Image-3b", price: 18, describe:"")
+        let IceLatia  = Product(name: "cold americano ", imageName: "Image-3c", price: 22, describe:"America or iced, which depends on and according to espresso coffee, cold coffee types")
         
         let icecreamProduct1 = Product(name: "mango ice cream", imageName: "Image-4", price: 18, describe: "")
         let icecreamProduct2 = Product(name: "vanilla ice cream", imageName: "Image-4a", price:17, describe: "")

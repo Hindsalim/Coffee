@@ -180,7 +180,7 @@
                         <outlet property="MKMapView" destination="Zdo-nd-OO9" id="MCX-Tq-yRA"/>
                         <outlet property="UIViewController" destination="Zdo-nd-OO9" id="uGK-4D-JaA"/>
                         <outlet property="mapOutLet" destination="Zdo-nd-OO9" id="Feg-LG-FLv"/>
-                        <outlet property="mapView" destination="7YT-BX-dOj" id="8b2-CV-4Lw"/>
+                        <outlet property="mapView" destination="7YT-BX-dOj" id="Av6-bq-TzJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eZ3-8k-v7l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -42,10 +42,10 @@ class SectionViewController: UIViewController , UICollectionViewDelegate,UIColle
         let Mocha = Product(name: "cold pistachio ", imageName: "Image-3b", price: 18, describe:"")
         let IceLatia  = Product(name: "cold americano ", imageName: "Image-3c", price: 22, describe:"America or iced, which depends on and according to espresso coffee, cold coffee types")
         
-        let icecreamProduct1 = Product(name: "mango ice cream", imageName: "Image-4", price: 18, describe: "")
-        let icecreamProduct2 = Product(name: "vanilla ice cream", imageName: "Image-4a", price:17, describe: "")
-        let icecreamProduct3 = Product(name: "pistachio ice cream", imageName: "Image-4b", price: 18, describe: "")
-        let icecreamProduct4 = Product(name: "mix mango ice cream", imageName: "Image-4c", price: 19, describe: "")
+        let icecreamProduct1 = Product(name: "mango ice cream", imageName: "Image-4", price: 18, describe: "Natural mango ice cream One of the best things that ice cream lovers love is the natural taste of mango")
+        let icecreamProduct2 = Product(name: "strawberry ice cream", imageName: "Image-4a", price:17, describe: "Strawberry is one of the most popular flavors used to make ice cream or frozen dessert in summer")
+        let icecreamProduct3 = Product(name: "pistachio ice cream", imageName: "Image-4b", price: 18, describe: "pistachio ice cream with pistachio pieces")
+        let icecreamProduct4 = Product(name: "mix mango ice cream", imageName: "Image-4c", price: 19, describe: "mango pupl with vanilla ice cream")
     
         
         

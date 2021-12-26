@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wqr-WP-drX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nBB-PQ-2c7">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -170,17 +170,18 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="7YT-BX-dOj" firstAttribute="trailing" secondItem="cla-5M-XfI" secondAttribute="trailing" id="A50-yh-AbD"/>
+                            <constraint firstItem="7YT-BX-dOj" firstAttribute="top" secondItem="Zdo-nd-OO9" secondAttribute="top" id="Asz-vY-DiR"/>
+                            <constraint firstItem="7YT-BX-dOj" firstAttribute="leading" secondItem="cla-5M-XfI" secondAttribute="leading" id="CJm-Si-OGw"/>
                             <constraint firstItem="7YT-BX-dOj" firstAttribute="top" secondItem="Zdo-nd-OO9" secondAttribute="top" id="G0S-bZ-TQ8"/>
+                            <constraint firstItem="7YT-BX-dOj" firstAttribute="trailing" secondItem="cla-5M-XfI" secondAttribute="trailing" id="G8W-rn-4x4"/>
                             <constraint firstAttribute="bottom" secondItem="7YT-BX-dOj" secondAttribute="bottom" id="HST-8z-dPH"/>
+                            <constraint firstAttribute="bottom" secondItem="7YT-BX-dOj" secondAttribute="bottom" id="SaA-pG-Tn2"/>
                             <constraint firstItem="7YT-BX-dOj" firstAttribute="leading" secondItem="cla-5M-XfI" secondAttribute="leading" id="gys-Nl-fys"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="lOw-Sw-81u"/>
                     <connections>
-                        <outlet property="MKMapView" destination="Zdo-nd-OO9" id="MCX-Tq-yRA"/>
-                        <outlet property="UIViewController" destination="Zdo-nd-OO9" id="uGK-4D-JaA"/>
                         <outlet property="mapOutLet" destination="7YT-BX-dOj" id="h9Z-6D-Tgc"/>
-                        <outlet property="mapView" destination="7YT-BX-dOj" id="8lX-yg-pYg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eZ3-8k-v7l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

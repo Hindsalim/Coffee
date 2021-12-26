@@ -154,10 +154,10 @@
             </objects>
             <point key="canvasLocation" x="730.43478260869574" y="16.741071428571427"/>
         </scene>
-        <!--Map-->
+        <!--Location1 View Controller-->
         <scene sceneID="exi-vy-Bj3">
             <objects>
-                <viewController id="nBB-PQ-2c7" customClass="Map" sceneMemberID="viewController">
+                <viewController id="nBB-PQ-2c7" customClass="Location1ViewController" customModule="Coffee" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zdo-nd-OO9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -179,13 +179,13 @@
                     <connections>
                         <outlet property="MKMapView" destination="Zdo-nd-OO9" id="MCX-Tq-yRA"/>
                         <outlet property="UIViewController" destination="Zdo-nd-OO9" id="uGK-4D-JaA"/>
-                        <outlet property="mapOutLet" destination="Zdo-nd-OO9" id="Feg-LG-FLv"/>
-                        <outlet property="mapView" destination="7YT-BX-dOj" id="Av6-bq-TzJ"/>
+                        <outlet property="mapOutLet" destination="7YT-BX-dOj" id="h9Z-6D-Tgc"/>
+                        <outlet property="mapView" destination="7YT-BX-dOj" id="8lX-yg-pYg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eZ3-8k-v7l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3439.130434782609" y="895.98214285714278"/>
+            <point key="canvasLocation" x="3438" y="909"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Mh4-SL-Jqa">

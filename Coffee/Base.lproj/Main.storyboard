@@ -351,10 +351,10 @@
             </objects>
             <point key="canvasLocation" x="5180" y="-1063"/>
         </scene>
-        <!--View Controller-->
+        <!--Shopping Cart View Controller-->
         <scene sceneID="Jb7-Ys-fX8">
             <objects>
-                <viewController id="yxt-Nn-wlC" sceneMemberID="viewController">
+                <viewController id="yxt-Nn-wlC" customClass="shoppingCartViewController" customModule="Coffee" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EHu-so-MRI" customClass="shoppingCartTableViewCell" customModule="Coffee" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -436,10 +436,17 @@
                             <constraint firstItem="NVt-35-LP2" firstAttribute="trailing" secondItem="4VT-yW-iD3" secondAttribute="trailing" id="XRg-K2-Mwe"/>
                         </constraints>
                         <connections>
+                            <outlet property="btnAddToCoffe" destination="mty-Jq-GB3" id="eI7-Pl-da3"/>
                             <outlet property="imageProduct" destination="oYN-aH-NYF" id="FzR-tX-ZN8"/>
+                            <outlet property="lblProductDescription" destination="nhX-KE-WcD" id="QOg-c1-jud"/>
+                            <outlet property="lblProductName" destination="aaI-WQ-Tjp" id="9we-8N-rbF"/>
+                            <outlet property="lblProductPrice" destination="tjM-f7-7gY" id="B62-D2-02Q"/>
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" id="Lkk-vH-56O"/>
+                    <connections>
+                        <outlet property="tableView" destination="4VT-yW-iD3" id="rOJ-G0-EJz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EVo-bp-fvI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -199,15 +199,14 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image." translatesAutoresizingMaskIntoConstraints="NO" id="ekl-ZK-dUp" customClass="viewController">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A beautiful identity and a beautiful place" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3r-GG-L7m">
-                                <rect key="frame" x="0.0" y="44" width="414" height="197"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A beautiful identity and a beautiful place" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3r-GG-L7m">
+                                <rect key="frame" x="20" y="44" width="414" height="74"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JYO-2O-1NA">
-                                <rect key="frame" x="279" y="831" width="115" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JYO-2O-1NA">
+                                <rect key="frame" x="326" y="805" width="88" height="57"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Home"/>
@@ -220,9 +219,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ekl-ZK-dUp" firstAttribute="top" secondItem="8Qg-gw-hoU" secondAttribute="top" id="6KY-b2-pOe"/>
-                            <constraint firstItem="JYO-2O-1NA" firstAttribute="bottom" secondItem="jEk-zG-r2Y" secondAttribute="bottom" id="DOx-2K-2VF"/>
-                            <constraint firstItem="jEk-zG-r2Y" firstAttribute="trailing" secondItem="JYO-2O-1NA" secondAttribute="trailing" constant="20" id="Ez2-hu-W7H"/>
-                            <constraint firstItem="JYO-2O-1NA" firstAttribute="leading" secondItem="jEk-zG-r2Y" secondAttribute="leading" constant="306" id="gSc-FS-uRx"/>
+                            <constraint firstItem="v3r-GG-L7m" firstAttribute="top" secondItem="jEk-zG-r2Y" secondAttribute="top" id="GhO-OI-5dx"/>
+                            <constraint firstItem="JYO-2O-1NA" firstAttribute="trailing" secondItem="jEk-zG-r2Y" secondAttribute="trailing" id="IzK-f0-HU1"/>
+                            <constraint firstItem="JYO-2O-1NA" firstAttribute="leading" secondItem="jEk-zG-r2Y" secondAttribute="leading" constant="326" id="SGw-bP-sNw"/>
+                            <constraint firstItem="JYO-2O-1NA" firstAttribute="top" secondItem="v3r-GG-L7m" secondAttribute="bottom" constant="687" id="TqC-bU-5sa"/>
+                            <constraint firstItem="v3r-GG-L7m" firstAttribute="trailing" secondItem="jEk-zG-r2Y" secondAttribute="trailing" constant="20" id="d6H-Zr-ICI"/>
+                            <constraint firstItem="JYO-2O-1NA" firstAttribute="bottom" secondItem="jEk-zG-r2Y" secondAttribute="bottom" id="gGd-59-Jfq"/>
+                            <constraint firstItem="v3r-GG-L7m" firstAttribute="leading" secondItem="jEk-zG-r2Y" secondAttribute="leading" constant="20" id="kHo-p5-Ji2"/>
                             <constraint firstItem="ekl-ZK-dUp" firstAttribute="trailing" secondItem="jEk-zG-r2Y" secondAttribute="trailing" id="oFn-m4-13A"/>
                             <constraint firstItem="ekl-ZK-dUp" firstAttribute="leading" secondItem="jEk-zG-r2Y" secondAttribute="leading" id="pCU-WN-RJa"/>
                             <constraint firstAttribute="bottom" secondItem="ekl-ZK-dUp" secondAttribute="bottom" id="xG8-gx-gOa"/>

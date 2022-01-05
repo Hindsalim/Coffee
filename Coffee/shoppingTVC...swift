@@ -29,23 +29,27 @@ class shoppingTVC: UITableViewCell {
     }
     
     @IBAction func addCart(_ sender: Any) {
-    
-    }
-    @IBAction func like(_ sender: Any) {
-
+        func saveCoreData(name:String,description : String,image : String,price : Int) -> Bool {
+            
+        if name == "" || price == Int { return false }
+         guard let name:String = description: String image:String price: Int else  {return false}
+         let Product = Product (name:"",description :"",image :""price:"")
+            // Create Database
+            cdProduct.create(product: ProductModel)
+  
+            return true
         }
     }
-    
-    
-    func tableView(_tableView:UITableView, numberOfRowsInSection section: Int)-> Int {
-    return arrNames.count
     }
-    func tableView(_ tableView:UITableView,cellForRowAt indexPath: IndexPath)-> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
-         cell.textLabel?.text = arrNames[indexPath.row]
 
-        return cell
-    }
+   @IBAction func like(_ sender: Any) {
+    
+
+        }
+
+    
+    
+
 
 
 

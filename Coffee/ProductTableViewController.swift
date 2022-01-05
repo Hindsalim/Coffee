@@ -34,11 +34,18 @@ class ProductTableViewController: UITableViewController {
         cell.imageView?.image = UIImage(named: product.imageName)
         return cell
     }
-    
+    func tableView(_tableView:UITableView, numberOfRowsInSection section: Int)-> Int {
+    return arrNames.count
+    }
+    func tableView(_ tableView:UITableView,cellForRowAt indexPath: IndexPath)-> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
+         cell.textLabel?.text = arrNames[indexPath.row]
+
+        return cell
   
 }
 
- 
+
 
       
       

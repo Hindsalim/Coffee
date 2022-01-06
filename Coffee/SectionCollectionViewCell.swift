@@ -8,6 +8,7 @@
 import UIKit
 
 class SectionCollectionViewCell: UICollectionViewCell {
+    @IBOutlet weak var viewLabel: UIView!
     
     @IBOutlet weak var sectionimageView: UIImageView!
     @IBOutlet weak var sectionTitalLable: UILabel!

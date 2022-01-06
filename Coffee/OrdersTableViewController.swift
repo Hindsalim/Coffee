@@ -1,89 +1,69 @@
 //
-//  ProductTableViewController.swift
+//  OrdersTableViewController.swift
 //  Coffee
 //
-//  Created by HIND12 on 11/05/1443 AH.
+//  Created by HIND12 on 03/06/1443 AH.
 //
 
 import UIKit
-import SwiftUI
 
-class ProductTableViewController: UITableViewController {
+class OrdersTableViewController: UITableViewController {
     
-    var selectedSection : Section!
-    var products : [Product] = []
-   
+    
+    var ordersProducts : [Products] = []
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        products = selectedSection.products
-        
-        tableView.rowHeight = view.bounds.height*0.2
 
-    }
-    
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return products.count
-    }
-//
-//
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "productCell", for: indexPath) as! shoppingTVC
-        
-        let product = products[indexPath.row]
-
-        cell.configurecell(with: product)
-        
-        return cell
-    }
-    
-//    func tableView(_tableView:UITableView, numberOfRowsInSection section: Int)-> Int {
-//    return arrNames.count
-//    }
-//    func tableView(_ tableView:UITableView,cellForRowAt indexPath: IndexPath)-> UITableViewCell {
-//        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
-//         cell.textLabel?.text = arrNames[indexPath.row]
-//
-//        return cell
-//
-//}
-
-}
-
-      
-      
-      
-      
-        
-        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // tself.navigationItem.rightBarButtonItem = self.editButtonItem
-    //}
+        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        fetchProducts()
+        tableView.reloadData()
+    }
 
     // MARK: - Table view data source
 
-  //  override func numberOfSections(in tableView: UITableView) -> Int {
-    // #warning Incomplete implementation, return the number of sections
-       // return 0
-  //  }
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        // #warning Incomplete implementation, return the number of sections
+        return 1
+    }
 
-   // override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-      // #warning Incomplete implementation, return the number of rows
-    //    return 0
- //   }
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        // #warning Incomplete implementation, return the number of rows
+        return ordersProducts.count
+    }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "orderCell", for: indexPath)
+        
+        cell.imageView?.image = UIImage(named:ordersProducts[indexPath.row].image ?? "")
+
+        cell.textLabel?.text = "\(ordersProducts[indexPath.row].name ?? "") SAR \(ordersProducts[indexPath.row].price)"
 
         // Configure the cell...
 
         return cell
     }
-    */
+    
+    
+    func fetchProducts(){
+        
+        do {
+       ordersProducts =   try PersistentStorage.shared.context.fetch(Products.fetchRequest())
+            
+        } catch {
+            print(error)
+        }
+        
+    }
+    
 
     /*
     // Override to support conditional editing of the table view.
@@ -92,6 +72,9 @@ class ProductTableViewController: UITableViewController {
         return true
     }
     */
+    
+    
+    
 
     /*
     // Override to support editing the table view.
@@ -130,5 +113,4 @@ class ProductTableViewController: UITableViewController {
     }
     */
 
-//
-    
+}

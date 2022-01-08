@@ -18,6 +18,7 @@ class SingUpVC :UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+// The customer registers a new login if he does not have a previous account and enters the required data:name ,email ,password and phonenumber
     }
     
     

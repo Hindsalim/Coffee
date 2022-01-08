@@ -46,6 +46,7 @@ switch myPayment {
  print("\(name) paid \(payment)")
         
  // This is conditionals
+
         if (payment>50)  {
             print("It takes you to the place you want \(payment)")
         } else if (payment < 50) {
@@ -54,7 +55,7 @@ switch myPayment {
         }
         return ""
     }
-    
+  // Delivery for more than 50 RS
     func connectig(){
    print("\(name) is connectig ...")
     }

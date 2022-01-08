@@ -31,28 +31,26 @@ class SectionViewController: UIViewController , UICollectionViewDelegate,UIColle
         let sweetProduct2 = Product(name: "lemon cake", imageName: "Image-1a", price: 19, describe: "One of the most delicious cakes fragile firm wet")
         let sweetProduct3 = Product(name: "lava cake", imageName: "Image-1b", price: 23, describe: "lava cake stuffed with nutella")
         let sweetProduct4 = Product(name: "cheese cake", imageName: "Image-1c", price: 20, describe: "cold lotus cheesecake")
-        ///
+        ///Sweets section
         let drinkProduct1 = Product(name: "espresso", imageName: "Image-2", price: 10, describe: "Espresso coffee is one of the most important Italian drinks, as this coffee is distinguished by its dark color")
         let drinkProduct2 = Product(name: "hot chocolate", imageName: "Image-2a", price: 20, describe: "Hot chocolat is a favorite to cool everyone in winter times")
         let drinkProduct3 = Product(name: "cappuccino", imageName: "Image-2b", price: 16, describe: "Kind of coffee")
         let drinkProduct4 = Product(name: "hot spanish", imageName: "Image-2c", price: 20, describe: "Delicious and delicious")
-        ///
-        let Hotchocolate1 = Product(name: "cold lce latte ", imageName: "Image-3", price: 17, describe:"Cool delicious is a little ice")
-        let IceBlack = Product(name: "cold spanish  ", imageName: "Image-3a", price: 20, describe:"The cold Spanish latte is a delicious and wonderful drink, with simple ingredients of coffee and milk")
-        let Mocha = Product(name: "cold pistachio ", imageName: "Image-3b", price: 18, describe:"")
-        let IceLatia  = Product(name: "cold americano ", imageName: "Image-3c", price: 22, describe:"America or iced, which depends on and according to espresso coffee, cold coffee types")
-        ///
+        /// Hot drinks section
+        let drinkHotchocolate1 = Product(name: "cold lce latte ", imageName: "Image-3", price: 17, describe:"Cool delicious is a little ice")
+        let drinkIceBlack  = Product(name: "cold spanish  ", imageName: "Image-3a", price: 20, describe:"The cold Spanish latte is a delicious and wonderful drink, with simple ingredients of coffee and milk")
+        let drinkMocha  = Product(name: "cold pistachio ", imageName: "Image-3b", price: 18, describe:"")
+        let drinkIceLatia  = Product(name: "cold americano ", imageName: "Image-3c", price: 22, describe:"America or iced, which depends on and according to espresso coffee, cold coffee types")
+        /// Cold drinks section
         let icecreamProduct1 = Product(name: "mango ice cream", imageName: "Image-4", price: 18, describe: "Natural mango ice cream One of the best things that ice cream lovers love is the natural taste of mango")
         let icecreamProduct2 = Product(name: "strawberry ice cream", imageName: "Image-4a", price:17, describe: "Strawberry is one of the most popular flavors used to make ice cream or frozen dessert in summer")
         let icecreamProduct3 = Product(name: "pistachio ice cream", imageName: "Image-4b", price: 18, describe: "pistachio ice cream with pistachio pieces")
         let icecreamProduct4 = Product(name: "mix mango ice cream", imageName: "Image-4c", price: 19, describe: "mango pupl with vanilla ice cream")
     
-        
-        
-        ///
+        /// Ice cream section
        let sweetSection = Section (name: "sweet", products: [sweetProduct1,sweetProduct2, sweetProduct3,sweetProduct4], imageName: "Image1")
        let drinkSection = Section (name: "hot drinks", products: [drinkProduct1,drinkProduct2, drinkProduct3,drinkProduct4], imageName: "image2")
-        let drinkSection1 = Section (name: "cold drinks",products: [Hotchocolate1 , IceBlack  , Mocha , IceLatia  ], imageName: "image3")
+        let drinkSection1 = Section (name: "cold drinks",products:[Hotchocolate1 , IceBlack ,Mocha,IceLatia  ], imageName: "image3")
       let icecreamSection = Section (name:"ice cream",products: [icecreamProduct1,icecreamProduct2,icecreamProduct3,icecreamProduct4], imageName:"image4")
         
         

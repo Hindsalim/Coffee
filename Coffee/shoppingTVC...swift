@@ -23,6 +23,7 @@ class shoppingTVC: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+// Each product has its own details.
     }
     func configurecell(with: Product) {
         nameProduct.text = with.name
@@ -46,8 +47,8 @@ class shoppingTVC: UITableViewCell {
     @IBAction func like(_ sender: Any) {
 
      }
-    
-    
+ // Products are shown to the customer, which product he wants to add to the cart.
+        
 }
 
 

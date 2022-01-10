@@ -22,6 +22,14 @@ class OrdersTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
     
+    
+    @IBAction func editOrders(_ sender: Any) {
+        tableView.isEditing.toggle()
+        
+        
+    }
+    
+
     override func viewWillAppear(_ animated: Bool) {
         fetchProducts()
         tableView.reloadData()
@@ -76,17 +84,27 @@ class OrdersTableViewController: UITableViewController {
     
     
 
-    /*
+    
     // Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             // Delete the row from the data source
+            let removedProduct = ordersProducts.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .fade)
+            
+            PersistentStorage.shared.context.delete(removedProduct)
+            
+            do {
+             try PersistentStorage.shared.context.save()
+            } catch{
+                print(error)
+            }
+            
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
     }
-    */
+   
 
     /*
     // Override to support rearranging the table view.

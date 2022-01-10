@@ -27,7 +27,7 @@ class shoppingTVC: UITableViewCell {
     }
     func configurecell(with: Product) {
         nameProduct.text = with.name
-        priceProduct.text = "Product: \(with.price)"
+        priceProduct.text = "Price:\(with.price)"
         describeProduct.text = with.describe
         imageViewProduct.image = UIImage(named: with.imageName)
         
@@ -43,6 +43,9 @@ class shoppingTVC: UITableViewCell {
         cdProduct.create(product: product)
         
     }
+   
+   
+    
     
     @IBAction func like(_ sender: Any) {
 

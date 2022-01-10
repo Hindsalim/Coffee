@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A1A3300278B18FC007EB8D5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1A32FF278B18FC007EB8D5 /* Home.swift */; };
 		3A2C295527843CF400DB05A9 /* PersistentStorage..swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2C295427843CF400DB05A9 /* PersistentStorage..swift */; };
 		3A2C295727844C5700DB05A9 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2C295627844C5700DB05A9 /* Products.swift */; };
 		3A7DEF6B27656577005556F5 /* ServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7DEF6A27656577005556F5 /* ServiceCell.swift */; };
@@ -23,7 +24,6 @@
 		3A95D5EA2786E7380024ED37 /* Products+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A95D5E82786E7380024ED37 /* Products+CoreDataClass.swift */; };
 		3A95D5EB2786E7380024ED37 /* Products+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A95D5E92786E7380024ED37 /* Products+CoreDataProperties.swift */; };
 		3A95D5ED2786E81B0024ED37 /* OrdersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A95D5EC2786E81B0024ED37 /* OrdersTableViewController.swift */; };
-		3A969019276E1B6900E5B185 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A969018276E1B6900E5B185 /* Home.swift */; };
 		3A98A8192765CFCF0027D1E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A98A8182765CFCF0027D1E6 /* GoogleService-Info.plist */; };
 		3A98A81C2765D1A00027D1E6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3A98A81B2765D1A00027D1E6 /* FirebaseAnalytics */; };
 		3A98A81E2765D1A00027D1E6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3A98A81D2765D1A00027D1E6 /* FirebaseAuth */; };
@@ -43,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A1A32FF278B18FC007EB8D5 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		3A2C295427843CF400DB05A9 /* PersistentStorage..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PersistentStorage..swift; path = Coffee/PersistentStorage..swift; sourceTree = SOURCE_ROOT; };
 		3A2C295627844C5700DB05A9 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		3A7DEF6A27656577005556F5 /* ServiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCell.swift; sourceTree = "<group>"; };
@@ -59,7 +60,6 @@
 		3A95D5E82786E7380024ED37 /* Products+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Products+CoreDataClass.swift"; sourceTree = "<group>"; };
 		3A95D5E92786E7380024ED37 /* Products+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Products+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3A95D5EC2786E81B0024ED37 /* OrdersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewController.swift; sourceTree = "<group>"; };
-		3A969018276E1B6900E5B185 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		3A98A8182765CFCF0027D1E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3A98A8222765D60C0027D1E6 /* SingUpVC .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SingUpVC .swift"; sourceTree = "<group>"; };
 		3A98A8242765D6BA0027D1E6 /* SigninVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninVC.swift; sourceTree = "<group>"; };
@@ -102,9 +102,11 @@
 		3A7E97B1276727A500878940 /* Models. */ = {
 			isa = PBXGroup;
 			children = (
+				3A1A32FF278B18FC007EB8D5 /* Home.swift */,
 				3A7E97B22767280700878940 /* Service.swift */,
 				3A7DEF6C276565B5005556F5 /* Customer.swift */,
 				3A2C295627844C5700DB05A9 /* Products.swift */,
+				3A8F4447276D18CD00D5E458 /* MoodSelector */,
 			);
 			path = Models.;
 			sourceTree = "<group>";
@@ -118,6 +120,13 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		3A854E51278ADC19000C80AA /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		3A8B167627632322009AE92C /* Location */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,7 +138,6 @@
 		3A8F4447276D18CD00D5E458 /* MoodSelector */ = {
 			isa = PBXGroup;
 			children = (
-				3A969018276E1B6900E5B185 /* Home.swift */,
 				3A98A8242765D6BA0027D1E6 /* SigninVC.swift */,
 				3A98A8222765D60C0027D1E6 /* SingUpVC .swift */,
 				3A98A8262765D87F0027D1E6 /* User.swift */,
@@ -143,7 +151,6 @@
 			children = (
 				3A84F0172781C67C00E2F2EA /* ModelCoreData.xcdatamodeld */,
 				3A2C295427843CF400DB05A9 /* PersistentStorage..swift */,
-				3A8F4447276D18CD00D5E458 /* MoodSelector */,
 			);
 			path = ManagedObjectModels;
 			sourceTree = "<group>";
@@ -197,6 +204,7 @@
 		3AA047B4277C50110079549F /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				3A854E51278ADC19000C80AA /* New Group */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -299,10 +307,10 @@
 				3A9B37C22760C9A200DFAE4B /* SceneDelegate.swift in Sources */,
 				3A95D5EB2786E7380024ED37 /* Products+CoreDataProperties.swift in Sources */,
 				3A98A8272765D87F0027D1E6 /* User.swift in Sources */,
-				3A969019276E1B6900E5B185 /* Home.swift in Sources */,
 				3A7DEF6D276565B5005556F5 /* Customer.swift in Sources */,
 				3A838BC927621A99005266C1 /* SectionCollectionViewCell.swift in Sources */,
 				3A98A8232765D60C0027D1E6 /* SingUpVC .swift in Sources */,
+				3A1A3300278B18FC007EB8D5 /* Home.swift in Sources */,
 				3A8C8C792761E7E60092C5B1 /* Section.swift in Sources */,
 				3A95D5ED2786E81B0024ED37 /* OrdersTableViewController.swift in Sources */,
 				3A2C295527843CF400DB05A9 /* PersistentStorage..swift in Sources */,

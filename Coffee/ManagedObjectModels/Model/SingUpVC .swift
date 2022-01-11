@@ -26,6 +26,7 @@ class SingUpVC :UIViewController {
         SignUp(email: email.text ?? "", password: password.text ?? "")
     }
     
+    
     func SignUp(email: String,password:String) {
         Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
             

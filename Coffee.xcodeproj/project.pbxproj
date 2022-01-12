@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		3A2C295527843CF400DB05A9 /* PersistentStorage..swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2C295427843CF400DB05A9 /* PersistentStorage..swift */; };
 		3A2C295727844C5700DB05A9 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2C295627844C5700DB05A9 /* Products.swift */; };
+		3A7B4C71278DE4DE0027C1AF /* viewController..swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B4C70278DE4DE0027C1AF /* viewController..swift */; };
 		3A7DEF6D276565B5005556F5 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7DEF6C276565B5005556F5 /* Customer.swift */; };
 		3A7E97B32767280700878940 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E97B22767280700878940 /* Service.swift */; };
+		3A7F0586278EB0AC00BB8D5A /* SignoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F0585278EB0AC00BB8D5A /* SignoutViewController.swift */; };
 		3A838BC62762149E005266C1 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A838BC52762149E005266C1 /* Product.swift */; };
 		3A838BC927621A99005266C1 /* SectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A838BC827621A99005266C1 /* SectionCollectionViewCell.swift */; };
 		3A838BCB27621C86005266C1 /* SectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A838BCA27621C86005266C1 /* SectionViewController.swift */; };
@@ -35,7 +37,6 @@
 		3A9B37C72760C9A200DFAE4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9B37C52760C9A200DFAE4B /* Main.storyboard */; };
 		3A9B37C92760C9A300DFAE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9B37C82760C9A300DFAE4B /* Assets.xcassets */; };
 		3A9B37CC2760C9A300DFAE4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9B37CA2760C9A300DFAE4B /* LaunchScreen.storyboard */; };
-		3A9B3DFA278D8FE900C50DF9 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B3DF9278D8FE900C50DF9 /* profileViewController.swift */; };
 		3AA047B3277C4E900079549F /* shoppingTVC...swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA047B2277C4E900079549F /* shoppingTVC...swift */; };
 		3AFB9244276A132D00A00085 /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB9243276A132D00A00085 /* ProductTableViewController.swift */; };
 /* End PBXBuildFile section */
@@ -43,8 +44,10 @@
 /* Begin PBXFileReference section */
 		3A2C295427843CF400DB05A9 /* PersistentStorage..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PersistentStorage..swift; path = Coffee/PersistentStorage..swift; sourceTree = SOURCE_ROOT; };
 		3A2C295627844C5700DB05A9 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		3A7B4C70278DE4DE0027C1AF /* viewController..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewController..swift; sourceTree = "<group>"; };
 		3A7DEF6C276565B5005556F5 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		3A7E97B22767280700878940 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		3A7F0585278EB0AC00BB8D5A /* SignoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignoutViewController.swift; sourceTree = "<group>"; };
 		3A838BC52762149E005266C1 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		3A838BC827621A99005266C1 /* SectionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionCollectionViewCell.swift; sourceTree = "<group>"; };
 		3A838BCA27621C86005266C1 /* SectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewController.swift; sourceTree = "<group>"; };
@@ -68,7 +71,6 @@
 		3A9B37C82760C9A300DFAE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A9B37CB2760C9A300DFAE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A9B37CD2760C9A300DFAE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A9B3DF9278D8FE900C50DF9 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
 		3AA047B2277C4E900079549F /* shoppingTVC...swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoppingTVC...swift; sourceTree = "<group>"; };
 		3AFB9243276A132D00A00085 /* ProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -190,7 +192,8 @@
 				3A95D5EC2786E81B0024ED37 /* OrdersTableViewController.swift */,
 				3A8C8C762761E06C0092C5B1 /*  OrdersVc.swift */,
 				3A8B167627632322009AE92C /* Location */,
-				3A9B3DF9278D8FE900C50DF9 /* profileViewController.swift */,
+				3A7B4C70278DE4DE0027C1AF /* viewController..swift */,
+				3A7F0585278EB0AC00BB8D5A /* SignoutViewController.swift */,
 			);
 			path = Coffee;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A7B4C71278DE4DE0027C1AF /* viewController..swift in Sources */,
 				3A838BCB27621C86005266C1 /* SectionViewController.swift in Sources */,
 				3A84F0192781C67C00E2F2EA /* ModelCoreData.xcdatamodeld in Sources */,
 				3A98A8292765F3460027D1E6 /* UserApi.swift in Sources */,
@@ -289,7 +293,7 @@
 				3A9B37C02760C9A200DFAE4B /* AppDelegate.swift in Sources */,
 				3AFB9244276A132D00A00085 /* ProductTableViewController.swift in Sources */,
 				3A9B37C22760C9A200DFAE4B /* SceneDelegate.swift in Sources */,
-				3A9B3DFA278D8FE900C50DF9 /* profileViewController.swift in Sources */,
+				3A7F0586278EB0AC00BB8D5A /* SignoutViewController.swift in Sources */,
 				3A95D5EB2786E7380024ED37 /* Products+CoreDataProperties.swift in Sources */,
 				3A98A8272765D87F0027D1E6 /* User.swift in Sources */,
 				3A7DEF6D276565B5005556F5 /* Customer.swift in Sources */,

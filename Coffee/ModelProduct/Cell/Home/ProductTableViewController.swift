@@ -18,7 +18,7 @@ class ProductTableViewController: UITableViewController {
         
         products = selectedSection.products
         
-        tableView.rowHeight = view.bounds.height*0.2
+        tableView.rowHeight = view.bounds.height*0.14
 
     }
     

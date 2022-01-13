@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3A2C295527843CF400DB05A9 /* PersistentStorage..swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2C295427843CF400DB05A9 /* PersistentStorage..swift */; };
 		3A2C295727844C5700DB05A9 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2C295627844C5700DB05A9 /* Products.swift */; };
-		3A7B4C71278DE4DE0027C1AF /* viewController..swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B4C70278DE4DE0027C1AF /* viewController..swift */; };
 		3A7DEF6D276565B5005556F5 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7DEF6C276565B5005556F5 /* Customer.swift */; };
 		3A7E97B32767280700878940 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E97B22767280700878940 /* Service.swift */; };
 		3A7F0586278EB0AC00BB8D5A /* SignoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F0585278EB0AC00BB8D5A /* SignoutViewController.swift */; };
@@ -44,7 +43,6 @@
 /* Begin PBXFileReference section */
 		3A2C295427843CF400DB05A9 /* PersistentStorage..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PersistentStorage..swift; path = Coffee/PersistentStorage..swift; sourceTree = SOURCE_ROOT; };
 		3A2C295627844C5700DB05A9 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
-		3A7B4C70278DE4DE0027C1AF /* viewController..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewController..swift; sourceTree = "<group>"; };
 		3A7DEF6C276565B5005556F5 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		3A7E97B22767280700878940 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		3A7F0585278EB0AC00BB8D5A /* SignoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignoutViewController.swift; sourceTree = "<group>"; };
@@ -192,7 +190,6 @@
 				3A95D5EC2786E81B0024ED37 /* OrdersTableViewController.swift */,
 				3A8C8C762761E06C0092C5B1 /*  OrdersVc.swift */,
 				3A8B167627632322009AE92C /* Location */,
-				3A7B4C70278DE4DE0027C1AF /* viewController..swift */,
 				3A7F0585278EB0AC00BB8D5A /* SignoutViewController.swift */,
 			);
 			path = Coffee;
@@ -278,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A7B4C71278DE4DE0027C1AF /* viewController..swift in Sources */,
 				3A838BCB27621C86005266C1 /* SectionViewController.swift in Sources */,
 				3A84F0192781C67C00E2F2EA /* ModelCoreData.xcdatamodeld in Sources */,
 				3A98A8292765F3460027D1E6 /* UserApi.swift in Sources */,

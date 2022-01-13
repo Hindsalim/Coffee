@@ -26,7 +26,7 @@ class Location1ViewController: UIViewController, MKMapViewDelegate {
         let cooridnates = CLLocationCoordinate2D(latitude: latitude, longitude: longtitude)
         let region = MKCoordinateRegion(center: cooridnates, span: span)
         
-        mapOutLet.setRegion(region, animated: true)
+
         
         let newAnnotation = MKPointAnnotation()
         newAnnotation.title = "My Favorite Place"
@@ -39,6 +39,8 @@ class Location1ViewController: UIViewController, MKMapViewDelegate {
         uilpgr.minimumPressDuration = 1
         mapOutLet.addGestureRecognizer(uilpgr)
         
+        mapOutLet.setRegion(region, animated: true)
+        //mapOutLet.setCenter(cooridnates, animated: true)
         
         
     }

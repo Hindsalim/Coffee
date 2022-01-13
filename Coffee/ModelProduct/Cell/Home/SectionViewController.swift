@@ -27,18 +27,18 @@ class SectionViewController: UIViewController , UICollectionViewDelegate,UIColle
         
         
         
-        let sweetDateCake = Product(name: "date cake", imageName: "Image-1", price: 21, describe: "Delicious crispy date cake")
-        let sweetLemonCake = Product(name: "lemon cake", imageName: "Image-1a", price: 19, describe: "One of the most delicious cakes fragile firm wet")
-        let sweetLavaCake = Product(name: "lava cake", imageName: "Image-1b", price: 23, describe: "lava cake stuffed with nutella")
-        let sweetCheeseCake = Product(name: "cheese cake", imageName: "Image-1c", price: 20, describe: "cold lotus cheesecake")
+        let sweetDateCake = Product(name: "date cake", imageName: "Image-1", price: 21, describe: " hot date cake")
+        let sweetLemonCake = Product(name: "lemon cake", imageName: "Image-1a", price: 19, describe: "lemon cake sweet and sour flavour")
+        let sweetLavaCake = Product(name: "lava cake", imageName: "Image-1b", price: 23, describe: "lava cake extra chocolate")
+        let sweetCheeseCake = Product(name: "cheese cake", imageName: "Image-1c", price: 20, describe: " lotus cheese cake")
         ///Sweets section
-        let drinkespresso = Product(name: "espresso", imageName: "Image-2", price: 18, describe: "Espresso coffee is one of the most important Italian drinks, as this coffee is distinguished by its dark color")
-        let drinkHotChocolate = Product(name: "hot chocolate", imageName: "Image-2a", price: 20, describe: "Hot chocolat is a favorite to cool everyone in winter times")
-        let drinkCappuccino = Product(name: "cappuccino", imageName: "Image-2b", price: 16, describe: "Kind of coffee")
-        let drinkHotSpanish = Product(name: "hot spanish", imageName: "Image-2c", price: 19, describe: "Delicious and delicious")
+        let drinkespresso = Product(name: "cortaduo", imageName: "Image-2", price: 18, describe: "espresso coffee with milk")
+        let drinkHotChocolate = Product(name: "hot chocolate", imageName: "Image-2a", price: 20, describe: "Dark chocolate with hot milk")
+        let drinkCappuccino = Product(name: "cappuccino", imageName: "Image-2b", price: 16, describe: "milk in small portion to dark coffee")
+        let drinkHotSpanish = Product(name: "hot spanish", imageName: "Image-2c", price: 19, describe: "spanish coffee")
         /// Hot drinks section
-        let drinkColdIceLatte = Product(name: "cold lce latte ", imageName: "Image-3", price: 17, describe:"Cool delicious is a little ice")
-        let drinkColdSpanish  = Product(name: "cold spanish  ", imageName: "Image-3a", price: 20, describe:"The cold Spanish latte is a delicious and wonderful drink, with simple ingredients of coffee and milk")
+        let drinkColdIceLatte = Product(name: "cold lce latte ", imageName: "Image-3", price: 17, describe:"cold coffee little ice")
+        let drinkColdSpanish  = Product(name: "cold spanish ", imageName: "Image-3a", price: 20, describe:"spanish coffee with milk and ice")
         let drinkColdPistachio  = Product(name: "cold pistachio ", imageName: "Image-3b", price: 18, describe:"")
         let drinkColdAmericano = Product(name: "cold americano ", imageName: "Image-3c", price: 22, describe:"America or iced, which depends on and according to espresso coffee, cold coffee types")
         /// Cold drinks section

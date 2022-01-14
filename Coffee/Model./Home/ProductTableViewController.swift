@@ -36,6 +36,7 @@ class ProductTableViewController: UITableViewController {
         
         return cell
     }
+    /// Each section has more types .
     
 //    func tableView(_tableView:UITableView, numberOfRowsInSection section: Int)-> Int {
 //    return arrNames.count

@@ -16,7 +16,7 @@ class SigninVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-// if the customer has a previous account he logs in email , password
+/// if the customer has a previous account he logs in email , password .
         
         // Do any additional setup after loading the view.
     }

@@ -50,7 +50,7 @@ class shoppingTVC: UITableViewCell {
     @IBAction func like(_ sender: Any) {
 
      }
- // Products are shown to the customer, which product he wants to add to the cart.
+ // Products are shown to the customer, which product he /she wants to add to the cart.
         
 }
 

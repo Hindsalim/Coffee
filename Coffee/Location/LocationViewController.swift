@@ -68,4 +68,6 @@ class Location1ViewController: UIViewController, MKMapViewDelegate {
     }
     
 }
-// Sakura coffee site An-Naqra district .
+
+
+/// The location of Sakura Cafe in Hail .

@@ -17,26 +17,25 @@ class SignoutViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-switch traitCollection.userInterfaceStyle{
-case.light:
-      lblTitle.text = "Light Mode"
-case .dark:
-    lblTitle.text = "Dark Mode"
-default:
-    lblTitle.text = "Unspecified"
+//switch traitCollection.userInterfaceStyle {
+//case.light:
+   lblTitle.text = "Light Mode"
+//case.dark:
+   // lblTitle.text = "Dark Mode"
+
 }
     }
     
-    @IBAction func signOut(_ sender: Any) {
-        let firebaseAuth = Auth.auth()
-        do{
-            try firebaseAuth.signOut()
-            self.dismiss(animated: true, completion: nil)
-        }catch let sinOutError as NSError {
-            print("ERROR Signing Out: %@",sinOutError)
-        }
-    }
-    
+   // @IBAction func signOut(_ sender: Any) {
+     //   let firebaseAuth = Auth.auth()
+     //   do{
+           // try firebaseAuth.signOut()
+      //      self.dismiss(animated: true, completion: nil)
+        //}catch let sinOutError as NSError {
+         //   print("ERROR Signing Out: %@",sinOutError)
+     //   }
+   // }
+   /// Sign out of the app 
     
     
     
@@ -53,4 +52,4 @@ default:
     }
     */
 
-}
+

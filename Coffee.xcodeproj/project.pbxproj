@@ -93,6 +93,7 @@
 				3A7E97B22767280700878940 /* Service.swift */,
 				3A7DEF6C276565B5005556F5 /* Customer.swift */,
 				3A2C295627844C5700DB05A9 /* Products.swift */,
+				3A959B21278C2CB800863D29 /* Home */,
 			);
 			path = Model.;
 			sourceTree = "<group>";
@@ -141,7 +142,6 @@
 			children = (
 				3A838BC827621A99005266C1 /* SectionCollectionViewCell.swift */,
 				3AA047B2277C4E900079549F /* shoppingTVC...swift */,
-				3A959B21278C2CB800863D29 /* Home */,
 			);
 			path = Cell;
 			sourceTree = "<group>";

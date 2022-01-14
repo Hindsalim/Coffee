@@ -69,5 +69,5 @@ print("It takes you to the place you want \(name) is:\(service.name),\(service.p
 
 
 }
-
+/// The customer requests through the application above 50 riyals through a call to determine the location, and also requests and is prepared in the cafe before the arrival of the customer.
 

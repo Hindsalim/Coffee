@@ -1,0 +1,111 @@
+
+/* Class = "UIButton"; configuration.title = "966 500707832"; ObjectID = "10S-yh-4jz"; */
+"10S-yh-4jz.configuration.title" = "966 500707832";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "10S-yh-4jz"; */
+"10S-yh-4jz.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "SignOut"; ObjectID = "10a-RQ-cFW"; */
+"10a-RQ-cFW.configuration.title" = "تسجيل خروج";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "10a-RQ-cFW"; */
+"10a-RQ-cFW.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Sing in "; ObjectID = "2C2-Sd-TBJ"; */
+"2C2-Sd-TBJ.configuration.title" = "تسجيل دخول";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2C2-Sd-TBJ"; */
+"2C2-Sd-TBJ.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Home"; ObjectID = "2ee-It-Mqc"; */
+"2ee-It-Mqc.configuration.title" = "الصفحة الرئيسية";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2ee-It-Mqc"; */
+"2ee-It-Mqc.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Button"; ObjectID = "3GE-BT-1T5"; */
+"3GE-BT-1T5.configuration.title" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3GE-BT-1T5"; */
+"3GE-BT-1T5.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Sing up"; ObjectID = "3pC-M7-m1k"; */
+"3pC-M7-m1k.configuration.title" = "تسجيل جديد";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3pC-M7-m1k"; */
+"3pC-M7-m1k.normalTitle" = "Button";
+
+/* Class = "UITableViewController"; title = "Orders"; ObjectID = "5C9-8I-UEK"; */
+"5C9-8I-UEK.title" = "الطلبات";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5eh-fa-o6I"; */
+"5eh-fa-o6I.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9La-GX-CZM"; */
+"9La-GX-CZM.text" = "Label";
+
+/* Class = "UILabel"; text = "CaffeSakura"; ObjectID = "BGK-8d-3qG"; */
+"BGK-8d-3qG.text" = "كافية ساكورا";
+
+/* Class = "UITextField"; placeholder = "name"; ObjectID = "CYO-CV-It4"; */
+"CYO-CV-It4.placeholder" = "الآسم";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JlU-Bb-vCl"; */
+"JlU-Bb-vCl.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Welcome"; ObjectID = "Pkv-YC-C6P"; */
+"Pkv-YC-C6P.text" = "مرحبا";
+
+/* Class = "UINavigationItem"; title = "Orders"; ObjectID = "QAH-8q-NP3"; */
+"QAH-8q-NP3.title" = "الطلبات";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "W7e-L8-ATI"; */
+"W7e-L8-ATI.placeholder" = "البريدالآلكتروني";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bOd-Ma-v4f"; */
+"bOd-Ma-v4f.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Eamil"; ObjectID = "dql-dx-Djn"; */
+"dql-dx-Djn.placeholder" = "البريد الآلكتروني";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "fZx-Dc-Gfx"; */
+"fZx-Dc-Gfx.text" = "Title";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "gBD-XP-72S"; */
+"gBD-XP-72S.title" = "الحساب";
+
+/* Class = "UIButton"; configuration.title = "Sing up"; ObjectID = "gRp-SY-Mm9"; */
+"gRp-SY-Mm9.configuration.title" = "التسجيل ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "gRp-SY-Mm9"; */
+"gRp-SY-Mm9.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Phone number"; ObjectID = "gbe-xe-VIE"; */
+"gbe-xe-VIE.placeholder" = "رقم الجوال";
+
+/* Class = "UINavigationItem"; title = "menu"; ObjectID = "idQ-yR-1tw"; */
+"idQ-yR-1tw.title" = "قائمة الطلبات";
+
+/* Class = "UIButton"; configuration.title = "Hail Al-Naqra"; ObjectID = "lRP-fV-xmA"; */
+"lRP-fV-xmA.configuration.title" = "حائل النقرة";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "lRP-fV-xmA"; */
+"lRP-fV-xmA.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "n2d-62-DGA"; */
+"n2d-62-DGA.placeholder" = "كلمه المرور";
+
+/* Class = "UIBarButtonItem"; title = "Edit"; ObjectID = "pnM-EG-f90"; */
+"pnM-EG-f90.title" = "تعديل";
+
+/* Class = "UIButton"; configuration.title = "SakurahailAlnaqra24.gmail.com"; ObjectID = "t1u-82-deQ"; */
+"t1u-82-deQ.configuration.title" = "SakurahailAlnaqra24.gmail.com";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "t1u-82-deQ"; */
+"t1u-82-deQ.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "yYZ-wE-95F"; */
+"yYZ-wE-95F.placeholder" = "كلمه مرور";
+
+/* Class = "UILabel"; text = "sectionName"; ObjectID = "zGS-7Q-cSH"; */
+"zGS-7Q-cSH.text" = "sectionName";

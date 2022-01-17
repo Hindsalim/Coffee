@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 import FirebaseAuth
+
 class SingUpVC :UIViewController {
     @IBOutlet weak var name: UITextField!
     @IBOutlet weak var email: UITextField!
@@ -20,6 +21,10 @@ class SingUpVC :UIViewController {
         
 /// The customer registers a new login if he does not have a previous account and enters the required data:name ,email ,password and phone number.
     }
+    
+    
+    
+    
     
     
     @IBAction func singUp(_ sender: Any) {
@@ -51,4 +56,6 @@ class SingUpVC :UIViewController {
 //            }
         }
     }
+    
+    
 }

@@ -1,0 +1,79 @@
+/* 
+  Localizable.strings
+  Coffee
+
+  Created by HIND12 on 14/06/1443 AH.
+  
+*/
+
+"Error" = "خطا";
+"Sorry,we could not find your account." = "عذرا ، لم نتمكن من العثور على حسابك";
+"date cake" = "كيكه التمر ";
+"price:21" = "السعر٢١";
+"hot date cake with caramel suous" = "كيكة التمر مع صوص التوفي الساخن ";
+"lemon cake" = "كيكة الليمون ";
+"price:20" = "السعر ٢٠";
+"lemon cake sweet and sour flavour" = "كيكة الليمون نكهة حالي وحامض";
+"lava cake" = "لافا كيك";
+"price:21" = "السعر ٢١";
+"lava cake extra dark chocolate" = "لافا كيك مع زيادةشوكولاته داكنه";
+"Cheesecake" = "تشيز كيك";
+"price:18" = "السعر ١٨";
+" lotus cheese cake" =" تيشز كيك بنكهة اللوتس ";
+"english cake" = "كيك انقليزي ";
+"price:6" = "السعر ٦";
+"Fresh soft cake daily" = "كيك طازج يوميا ";
+///
+"Espresso" = "اسبرسو";
+"price:10" =" السعر ١٠";
+"Doubal shot of coffee" = "دبل شوت اسبرسو";
+"hot chocolate" = "شوكولاته ساخنة ";
+"price:20" = "السعر٢٠";
+"Dark chocolate with hot milk" = "شوكولاته داكنه مع الحليب الساخن ";
+"cappuccino" = "كابتشينو";
+"price:16"= "السعر١٦";
+"A mixture of espresso and milk " = "مزيج بين القهوه والحليب";
+"spanish latte" = "سبانيش لاتيه";
+"price:19" = "السعر١٩";
+"A mixture ofespresso and sweetended milk" = "مزيج بين القهوةوالحليب المحلا";
+"Flatwhite" = "فلايت وايت";
+"price:15" = "السعر١٥";
+"A mixture of espresso and milk" = "مزيج بين القهوة والحليب ";
+///
+"lced latte" = "لاتيه بارد";
+"price:17"= "السعر ١٧";
+"A mixture of espresso and cold milk" = "مزيج بين القهوة والحليب البارد" ;
+"lced spanish " = "سبانيش بارد ";
+"price:20" = "السعر٢٠";
+" A mixture of espresso and sweetend cold"= "مزيج بين القهوةوالمحلا البارد";
+"Iced pistachio " = "بستاشيو بارد";
+"price:22" = "السعر٢٢";
+"A mixture of espresso and cold  milk with pistachio " = "مزيج بين الحليب البارد مع البستاشيو";
+"Americano " = "امريكانو";
+"price:15" = "السعر١٥";
+"A mixture of espresso cold water and ice" = "مزيج بين القهوةوالماءالبارد والثلج";
+"orangejuice" = "عصير برتقال";
+"price:16" = "السعر١٦";
+"Natural orange juice served cold" = "عصير برتقال طبيعي";
+///
+"mango ice cream" = "ايسكريم مانجا";
+"price:15" = "السعر١٥";
+"Natural mango ice cream with mango slices" = "ايسكريم مانجا طبيعي مع قطع المانجا";
+"strawberry ice cream" = "ايسكريم فراولة";
+"price:14" = "السعر ١٤";
+" Natural Strawberry ice cream with strawberry slice" = "ايسكريم فراولة طبيعي مع قطع الفراولة ";
+"pistachio ice cream" = "ايسكريم البستاشيو";
+"price:16" = "السعر١٦";
+"pistachio ice cream with pistachio pieces" = "ايسكريم البستاشيو مع قطع البستاشيو";
+"mix mango ice cream and vanilla" = "خليط بين ايسكريم المانجا والفانيليا";
+"price:17" = "السعر١٧";
+"mix mango slice with vanilla ice cream" = "قطع المانجا مع ايسكريم الفانيليا";
+"Chocolate ice cream" = "ايسكريم شوكولاته";
+"price:13" = "السعر ١٣";
+"Chocolate ice cream with Flavored Flakes" = "ايسكريم شوكولاته مع نكهةالفليك";
+
+"sweet" = "حلا";
+"hot drinks" = "مشروبات حاره";
+"cold drinks" = "مشروبات البارده";
+"ice cream" = "ايس كريم";
+"price" = "السعر";

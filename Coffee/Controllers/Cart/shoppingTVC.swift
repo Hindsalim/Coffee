@@ -1,5 +1,5 @@
 //
-//  shoppingCartCell..swift
+//  shoppingCartCell.swift
 //  Coffee
 //
 //  Created by HIND12 on 25/05/1443 AH.

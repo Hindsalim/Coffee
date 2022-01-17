@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+extension String{
+ 
+    var localaized :String {
+            return NSLocalizedString(self, comment: "")
+    }
+}

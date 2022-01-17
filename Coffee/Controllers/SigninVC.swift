@@ -33,7 +33,7 @@ class SigninVC: UIViewController {
         Auth.auth().signIn(withEmail: email.text ?? "", password: password.text ?? "") { [weak self] authResult, error in
             
             if let error = error {
-                let alert = UIAlertController(title: "Error", message: "Sorry,we could not find your account.", preferredStyle: .alert)
+                let alert = UIAlertController(title: "Error".localaized, message: "Sorry,we could not find your account.".localaized, preferredStyle: .alert)
                 print(error.localizedDescription)
             }
             if authResult?.user.email != nil {
@@ -45,8 +45,4 @@ class SigninVC: UIViewController {
         }
         
     }
-    
-    
-    
-    
 }

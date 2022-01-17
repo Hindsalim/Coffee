@@ -35,7 +35,7 @@
 "A mixture of espresso and milk " = "مزيج بين القهوه والحليب";
 "spanish latte" = "سبانيش لاتيه";
 "price:19" = "السعر١٩";
-"A mixture ofespresso and sweetended milk" = "مزيج بين القهوةوالحليب المحلا";
+ "A mixture of espresso and sweetended milk" = "مزيج بين القهوةوالحليب المحلا";
 "Flatwhite" = "فلايت وايت";
 "price:15" = "السعر١٥";
 "A mixture of espresso and milk" = "مزيج بين القهوة والحليب ";
@@ -48,7 +48,7 @@
 " A mixture of espresso and sweetend cold"= "مزيج بين القهوةوالمحلا البارد";
 "Iced pistachio " = "بستاشيو بارد";
 "price:22" = "السعر٢٢";
-"A mixture of espresso and cold  milk with pistachio " = "مزيج بين الحليب البارد مع البستاشيو";
+"A mixture of espresso and cold milk with pistachio"= "مزيج بين الحليب البارد مع البستاشيو";
 "Americano " = "امريكانو";
 "price:15" = "السعر١٥";
 "A mixture of espresso cold water and ice" = "مزيج بين القهوةوالماءالبارد والثلج";
@@ -67,7 +67,7 @@
 "pistachio ice cream with pistachio pieces" = "ايسكريم البستاشيو مع قطع البستاشيو";
 "mix mango ice cream and vanilla" = "خليط بين ايسكريم المانجا والفانيليا";
 "price:17" = "السعر١٧";
-"mix mango slice with vanilla ice cream" = "قطع المانجا مع ايسكريم الفانيليا";
+"mango slice with vanilla ice cream" = "قطع المانجا مع ايسكريم الفانيليا";
 "Chocolate ice cream" = "ايسكريم شوكولاته";
 "price:13" = "السعر ١٣";
 "Chocolate ice cream with Flavored Flakes" = "ايسكريم شوكولاته مع نكهةالفليك";
@@ -76,4 +76,4 @@
 "hot drinks" = "مشروبات حاره";
 "cold drinks" = "مشروبات البارده";
 "ice cream" = "ايس كريم";
-"price" = "السعر";
+"Price" = "السعر";

@@ -27,7 +27,7 @@ class shoppingTVC: UITableViewCell {
     }
     func configurecell(with: Product) {
         nameProduct.text = with.name
-        priceProduct.text = "Price:\(with.price)"
+        priceProduct.text = "Price".localaized + ": \(with.price)"
         describeProduct.text = with.describe
         imageViewProduct.image = UIImage(named: with.imageName)
         

@@ -233,7 +233,6 @@
                             <constraint firstItem="bmJ-gz-Uqz" firstAttribute="leading" secondItem="jEk-zG-r2Y" secondAttribute="leading" id="IwG-M2-dU3"/>
                             <constraint firstItem="bmJ-gz-Uqz" firstAttribute="trailing" secondItem="jEk-zG-r2Y" secondAttribute="trailing" id="UIO-mN-Fjm"/>
                             <constraint firstItem="bmJ-gz-Uqz" firstAttribute="top" secondItem="8Qg-gw-hoU" secondAttribute="top" id="ZQb-ci-1PZ"/>
-                            <constraint firstItem="Pkv-YC-C6P" firstAttribute="top" secondItem="jEk-zG-r2Y" secondAttribute="top" constant="734" id="a3s-Ox-Iz1"/>
                             <constraint firstItem="jEk-zG-r2Y" firstAttribute="bottom" secondItem="Pkv-YC-C6P" secondAttribute="bottom" constant="38" id="dVS-xw-0YT"/>
                             <constraint firstItem="jEk-zG-r2Y" firstAttribute="trailing" secondItem="2ee-It-Mqc" secondAttribute="trailing" constant="20" id="fZq-GM-dkW"/>
                             <constraint firstItem="Pkv-YC-C6P" firstAttribute="leading" secondItem="jEk-zG-r2Y" secondAttribute="leading" constant="117" id="ggx-uF-RuP"/>
@@ -441,7 +440,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bbG-yk-PE5">
-                                <rect key="frame" x="20" y="450" width="240.5" height="106"/>
+                                <rect key="frame" x="20" y="450" width="374" height="106"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="X6t-dB-Hy8">
                                         <rect key="frame" x="0.0" y="0.0" width="131.5" height="30"/>
@@ -518,7 +517,7 @@
                             <constraint firstItem="Jni-y4-dqB" firstAttribute="trailing" secondItem="10a-RQ-cFW" secondAttribute="trailing" constant="20" id="LbZ-N0-RLF"/>
                             <constraint firstItem="bbG-yk-PE5" firstAttribute="leading" secondItem="Jni-y4-dqB" secondAttribute="leading" constant="20" id="N4f-2F-c2h"/>
                             <constraint firstItem="bbG-yk-PE5" firstAttribute="top" secondItem="Jni-y4-dqB" secondAttribute="top" constant="394" id="Wot-Iy-fnE"/>
-                            <constraint firstItem="Jni-y4-dqB" firstAttribute="trailing" secondItem="bbG-yk-PE5" secondAttribute="trailing" constant="153.5" id="jQs-z5-Sx8"/>
+                            <constraint firstItem="Jni-y4-dqB" firstAttribute="trailing" secondItem="bbG-yk-PE5" secondAttribute="trailing" constant="20" id="jQs-z5-Sx8"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="m3b-Ku-T4S"/>

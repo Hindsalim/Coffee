@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
      super.viewDidLoad()
-       Animations()
+     //  Animations()
     }
     
     
@@ -25,7 +25,7 @@ class ViewController: UIViewController {
 self.textWelcom.transform = CGAffineTransform(rotationAngle: 120)
    } completion: { _ in
        UIView.animate(withDuration: 1, delay: 0.5, options: .curveEaseOut) {
-           self.textWelcom.alpha = 0
+           self.textWelcom.alpha = 1
         } completion: { _ in
         }
    }

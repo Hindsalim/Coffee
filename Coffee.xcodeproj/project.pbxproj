@@ -16,7 +16,6 @@
 		3A941199279566F800571337 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A941160279566F800571337 /* ViewController.swift */; };
 		3A94119B279566F800571337 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A941168279566F800571337 /* LocationViewController.swift */; };
 		3A94119C279566F800571337 /* shoppingCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A941169279566F800571337 /* shoppingCartTableViewCell.swift */; };
-		3A94119D279566F800571337 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A94116A279566F800571337 /* CartVC.swift */; };
 		3A94119F279566F800571337 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A94116D279566F800571337 /* GoogleService-Info.plist */; };
 		3A9411A0279566F800571337 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A94116E279566F800571337 /* Extensions.swift */; };
 		3A9411A2279566F800571337 /* shoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A941170279566F800571337 /* shoppingCartViewController.swift */; };
@@ -55,7 +54,6 @@
 		3A941160279566F800571337 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A941168279566F800571337 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		3A941169279566F800571337 /* shoppingCartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shoppingCartTableViewCell.swift; sourceTree = "<group>"; };
-		3A94116A279566F800571337 /* CartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
 		3A94116D279566F800571337 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3A94116E279566F800571337 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3A941170279566F800571337 /* shoppingCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shoppingCartViewController.swift; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 		3A53177D27956BD100FFDDA3 /* Cart */ = {
 			isa = PBXGroup;
 			children = (
-				3A94116A279566F800571337 /* CartVC.swift */,
 				3A941189279566F800571337 /* shoppingTVC.swift */,
 				3A941169279566F800571337 /* shoppingCartTableViewCell.swift */,
 			);
@@ -301,7 +298,6 @@
 				3A9411B2279566F800571337 /* AppDelegate.swift in Sources */,
 				3A9411AC279566F800571337 /* User.swift in Sources */,
 				3A9411AA279566F800571337 /* Customer.swift in Sources */,
-				3A94119D279566F800571337 /* CartVC.swift in Sources */,
 				3A9411A5279566F800571337 /* Products+CoreDataClass.swift in Sources */,
 				3A9411A0279566F800571337 /* Extensions.swift in Sources */,
 				3A9411A3279566F800571337 /* PersistentStorage.swift in Sources */,

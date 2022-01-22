@@ -196,16 +196,16 @@
             <objects>
                 <viewController id="Rpp-X3-PW3" customClass="ViewController" customModule="Coffee" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Qg-gw-hoU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sakuraApplication" highlightedImage="sakuraApplication" translatesAutoresizingMaskIntoConstraints="NO" id="bmJ-gz-Uqz">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ee-It-Mqc">
-                                <rect key="frame" x="292" y="794" width="102" height="31"/>
+                                <rect key="frame" x="292" y="740" width="102" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="oG1-Ol-8jK"/>
                                     <constraint firstAttribute="width" constant="102" id="tFy-7s-jhy"/>
@@ -218,7 +218,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pkv-YC-C6P">
-                                <rect key="frame" x="117" y="778" width="153" height="46"/>
+                                <rect key="frame" x="117" y="724" width="153" height="46"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <color key="textColor" red="0.53333336109999996" green="0.40000003579999999" blue="0.44705885649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -674,7 +674,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="7ge-Hg-8YD"/>
+        <segue reference="k7f-rd-enM"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="candybarphone" catalog="system" width="97" height="128"/>
